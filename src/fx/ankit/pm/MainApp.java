@@ -99,7 +99,7 @@ public class MainApp extends Application {
     }
 
     /**
-     * Shows the person overview inside the root layout.
+     * Shows the Application overview inside the root layout.
      */
     public void showAppOverview() {
     	 try {
@@ -123,21 +123,21 @@ public class MainApp extends Application {
             // Load person overview.
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(MainApp.class.getResource("../view/AppsOverview.fxml"));
-            AnchorPane personOverview = (AnchorPane) loader.load();
+            AnchorPane appOverview = (AnchorPane) loader.load();
 
             // Set person overview into the center of root layout.
-            rootLayout.setCenter(personOverview);
+            rootLayout.setCenter(appOverview);
         } catch (IOException e) {
             e.printStackTrace();
         }*/
     }
     
     /**
-     * Opens a dialog to edit details for the specified person. If the user
-     * clicks OK, the changes are saved into the provided person object and true
+     * Opens a dialog to edit details for the specified app. If the user
+     * clicks OK, the changes are saved into the provided application object and true
      * is returned.
      * 
-     * @param person the person object to be edited
+     * @param  the application object to be edited
      * @return true if the user clicked OK, false otherwise.
      */
     public boolean showAppEditDialog(ApplicationDtl appDetail,String type) 
@@ -212,7 +212,7 @@ public class MainApp extends Application {
     }
     
     /**
-     * Loads apps data from the specified file. The current person data will
+     * Loads apps data from the specified file. The current app data will
      * be replaced.
      * 
      * @param file
