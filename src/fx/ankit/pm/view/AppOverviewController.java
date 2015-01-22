@@ -131,7 +131,7 @@ public class AppOverviewController {
     
     /**
      * Called when the user clicks the edit button. Opens a dialog to edit
-     * details for the selected person.
+     * details for the selected Application.
      */
     @SuppressWarnings("deprecation")
 	@FXML
