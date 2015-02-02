@@ -43,7 +43,7 @@ public class MainApp extends Application {
     
     	appData.add(new ApplicationDtl("DMC Bank","Username1","Vergil@gmail.com","password1"));
     	appData.add(new ApplicationDtl("GitHub","Username2","santa@outlook.com","password2"));
-    	appData.add(new ApplicationDtl("FaceBook","Username3","sampleId@ak.com","password3"));
+    	appData.add(new ApplicationDtl("FaceBook","Username3","Dante@evan.com","password3"));
     	appData.add(new ApplicationDtl("LinkedIn","Username4","kinkyshots@vodka.com","password5"));
     	appData.add(new ApplicationDtl("Twitter","Username5","deathcode@killer.com","password5"));
     	appData.add(new ApplicationDtl("Omegle","Username6","Mandrikohio@looper.xxx","password6"));
