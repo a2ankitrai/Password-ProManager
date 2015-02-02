@@ -108,9 +108,9 @@
 			<fx:resources refid="appRes"/>
 	
 			<manifest>
-				<attribute name="Implementation-Vendor" value="Ankit Rai"/>
+				<attribute name="Implementation-Vendor" value="Ankit_Rai"/>
 				<attribute name="Implementation-Title" value="Password ProManager"/>
-				<attribute name="Implementation-Version" value="1.1"/>
+				<attribute name="Implementation-Version" value="1.2"/>
 				<attribute name="JavaFX-Feature-Proxy" value="None"/>
 			</manifest>
 		</fx:jar>
@@ -128,7 +128,7 @@
 			updatemode="background" >
 	
 			<fx:platform basedir="${java.home}"/>
-			<fx:info title="Password ProManager" vendor="Ankit Rai"/>
+			<fx:info title="Password ProManager" vendor="Ankit_Rai"/>
 	
 			<fx:application refId="fxApplication"/>
 			<fx:resources refid="appRes"/>
