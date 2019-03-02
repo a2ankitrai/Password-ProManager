@@ -1,3 +1,6 @@
 # Password-ProManager
-A Java FX application to store and manage passwords. 
-The application demonstrates features like Java 8 lambdas, JAX etc.
+
+Password-ProManager is a desktop application to store and manage passwords for different accounts locally.
+
+This application is developed in Java FX and stores the credentials locally on your system.
+ 
